@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69910cb2-7cdd-4925-bf3e-aa6798a9e1b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CoverUsage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/enums/TaskStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/models/Developer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/models/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/models/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/models/Project.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/models/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/service/TaskService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/junit/demo/service/TaskServiceTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2xzbfHEGwzndDaS5NhzS7NjyUzX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.org.junit.demo.Main.executor": "Run",
+    "JUnit.CalculatorDiffblueTest.executor": "Coverage",
+    "JUnit.CalculatorTest.executor": "Coverage",
+    "JUnit.TaskServiceTest.createTask_withNullStatus_throwsException.executor": "Run",
+    "JUnit.TaskServiceTest.createTask_withValidData_returnsTask.executor": "Run",
+    "JUnit.TaskServiceTest.executor": "Coverage",
+    "Maven.project-manager-junit-javadoc [clean].executor": "Run",
+    "Maven.project-manager-junit-javadoc [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/projects/project-manager-junit-javadoc/junit-javadoc",
+    "onboarding.tips.debug.path": "C:/projects/project-manager-junit-javadoc/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.TaskServiceTest">
+    <configuration name="CalculatorDiffblueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-manager-junit-javadoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.junit.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.junit.demo" />
+      <option name="MAIN_CLASS_NAME" value="org.junit.demo.CalculatorDiffblueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-manager-junit-javadoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.junit.demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.junit.demo.service" />
+      <option name="MAIN_CLASS_NAME" value="org.junit.demo.service.TaskServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceTest.createTask_withNullStatus_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-manager-junit-javadoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.junit.demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.junit.demo.service" />
+      <option name="MAIN_CLASS_NAME" value="org.junit.demo.service.TaskServiceTest" />
+      <option name="METHOD_NAME" value="createTask_withNullStatus_throwsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceTest.createTask_withValidData_returnsTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-manager-junit-javadoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.junit.demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.junit.demo.service" />
+      <option name="MAIN_CLASS_NAME" value="org.junit.demo.service.TaskServiceTest" />
+      <option name="METHOD_NAME" value="createTask_withValidData_returnsTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Write tests for class TaskService" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="project-manager-junit-javadoc" />
+      <settings run-config-name="Write tests for class TaskService" include-system-env-vars="true" skeleton-tests-only="false">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="org.junit.demo.service.TaskService" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TaskServiceTest" />
+        <item itemvalue="JUnit.TaskServiceTest.createTask_withNullStatus_throwsException" />
+        <item itemvalue="JUnit.TaskServiceTest.createTask_withValidData_returnsTask" />
+        <item itemvalue="Diffblue Cover.Write tests for class TaskService" />
+        <item itemvalue="JUnit.CalculatorDiffblueTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69910cb2-7cdd-4925-bf3e-aa6798a9e1b4" name="Changes" comment="" />
+      <created>1748943953135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748943953135</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/project_manager_junit_javadoc$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1748945406405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.junit.demo.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_manager_junit_javadoc$CalculatorDiffblueTest.ic" NAME="CalculatorDiffblueTest Coverage Results" MODIFIED="1748947019571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.junit.demo.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_manager_junit_javadoc$TaskServiceTest_createTask_withNullStatus_throwsException.ic" NAME="TaskServiceTest.createTask_withNullStatus_throwsException Coverage Results" MODIFIED="1749034609482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.junit.demo.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_manager_junit_javadoc$TaskServiceTest.ic" NAME="TaskServiceTest Coverage Results" MODIFIED="1749036142756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.junit.demo.service.*</FILTER>
+    </SUITE>
+  </component>
+</project>

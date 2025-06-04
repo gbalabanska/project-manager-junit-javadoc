@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69910cb2-7cdd-4925-bf3e-aa6798a9e1b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CoverUsage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/enums/TaskStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/models/Developer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/models/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/models/Manager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/models/Project.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/models/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/junit/demo/service/TaskService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/junit/demo/service/TaskServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -58,6 +45,8 @@
     "JUnit.TaskServiceTest.createTask_withNullStatus_throwsException.executor": "Run",
     "JUnit.TaskServiceTest.createTask_withValidData_returnsTask.executor": "Run",
     "JUnit.TaskServiceTest.executor": "Coverage",
+    "JUnit.WebTablesTests.executor": "Run",
+    "JUnit.WebTablesTests.testDeleteRow.executor": "Run",
     "Maven.project-manager-junit-javadoc [clean].executor": "Run",
     "Maven.project-manager-junit-javadoc [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -65,23 +54,21 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projects/project-manager-junit-javadoc/junit-javadoc",
+    "last_opened_file_path": "C:/projects/project-manager-junit-javadoc",
     "onboarding.tips.debug.path": "C:/projects/project-manager-junit-javadoc/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TaskServiceTest">
-    <configuration name="CalculatorDiffblueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-manager-junit-javadoc" />
+  <component name="RunManager" selected="JUnit.WebTablesTests">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.junit.demo.Main" />
+      <module name="project-manager-junit-selenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.junit.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.junit.demo" />
-      <option name="MAIN_CLASS_NAME" value="org.junit.demo.CalculatorDiffblueTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,38 +104,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskServiceTest.createTask_withValidData_returnsTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-manager-junit-javadoc" />
+    <configuration name="WebTablesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-manager-junit-selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.junit.demo.service.*" />
+          <option name="PATTERN" value="org.selenium.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.junit.demo.service" />
-      <option name="MAIN_CLASS_NAME" value="org.junit.demo.service.TaskServiceTest" />
-      <option name="METHOD_NAME" value="createTask_withValidData_returnsTask" />
+      <option name="PACKAGE_NAME" value="org.selenium.demo" />
+      <option name="MAIN_CLASS_NAME" value="org.selenium.demo.WebTablesTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTablesTests.testDeleteRow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-manager-junit-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.selenium.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.selenium.demo" />
+      <option name="MAIN_CLASS_NAME" value="org.selenium.demo.WebTablesTests" />
+      <option name="METHOD_NAME" value="testDeleteRow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Write tests for class TaskService" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="project-manager-junit-javadoc" />
-      <settings run-config-name="Write tests for class TaskService" include-system-env-vars="true" skeleton-tests-only="false">
-        <jvm-args />
-        <selection-scope>class</selection-scope>
-        <selected-element key="org.junit.demo.service.TaskService" />
-      </settings>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebTablesTests" />
+        <item itemvalue="JUnit.WebTablesTests.testDeleteRow" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TaskServiceTest" />
         <item itemvalue="JUnit.TaskServiceTest.createTask_withNullStatus_throwsException" />
-        <item itemvalue="JUnit.TaskServiceTest.createTask_withValidData_returnsTask" />
-        <item itemvalue="Diffblue Cover.Write tests for class TaskService" />
-        <item itemvalue="JUnit.CalculatorDiffblueTest" />
       </list>
     </recent_temporary>
   </component>

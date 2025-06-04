@@ -42,12 +42,22 @@ public class WebTablesPage {
     }
 
     public void deleteRowByEmail(String email) {
+        // Try to remove annoying ad iframe if it exists
+        try {
+            WebElement iframe = driver.findElement(By.cssSelector("iframe[id^='google_ads_iframe']"));
+            ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("arguments[0].remove();", iframe);
+        } catch (Exception ignored) {
+            // If no iframe found, move on
+        }
+
         List<WebElement> rows = driver.findElements(tableRows);
         for (WebElement row : rows) {
             if (row.getText().contains(email)) {
-                row.findElement(By.cssSelector("[title='Delete']")).click();
+                WebElement deleteBtn = row.findElement(By.cssSelector("[title='Delete']"));
+                ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("arguments[0].click();", deleteBtn);
                 break;
             }
         }
     }
+
 }
